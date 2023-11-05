@@ -1,0 +1,130 @@
+.btn-style-1 {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: 500;
+}
+.btn-style-1:hover {
+  background: white;
+  color: #2c2d33;
+}
+.btn-style-1:active {
+  background: #b3b3b3;
+}
+
+.btn-style-2 {
+  border: 2px solid white;
+  background: white;
+  color: #2c2d33;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: 500;
+}
+.btn-style-2:hover {
+  background: white;
+  color: #2c2d33;
+}
+.btn-style-2:active {
+  background: #b3b3b3;
+}
+
+.btn-style-3 {
+  color: red;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  width: 30%;
+}
+.btn-style-3 a {
+  color: white;
+}
+.btn-style-3 span {
+  background: white;
+  display: block;
+  height: 2px;
+  transform-origin: right;
+}
+.btn-style-3 .fleche {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.btn-style-3 .fleche__corps {
+  width: 20px;
+  transform: translateX(2px);
+  transition: 0.3s;
+}
+.btn-style-3 .fleche__haut {
+  width: 10px;
+  transform: rotate(45deg) translateX(2px);
+}
+.btn-style-3 .fleche__bas {
+  width: 10px;
+  transform: rotate(-45deg) translateX(2px);
+}
+.btn-style-3:hover .fleche__corps {
+  width: 30px;
+}
+
+.btn-big {
+  width: 200px;
+  height: 200px;
+  background: white;
+  color: #2c2d33;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn-big__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+}
+.btn-big__back:hover {
+  animation: bigger 0.5s;
+  width: 250px;
+  height: 250px;
+}
+.btn-big__back:hover .btn-big {
+  width: 150px;
+  height: 150px;
+}
+.btn-big__back:hover .btn-big:active {
+  width: 170px;
+  height: 170px;
+}
+.btn-big span {
+  font-size: 32px;
+}
+@keyframes bigger {
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+  75% {
+    width: 280px;
+    height: 280px;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+  }
+}

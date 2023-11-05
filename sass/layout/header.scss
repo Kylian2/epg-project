@@ -1,0 +1,281 @@
+/* ---------- HEADER STYLE ----------- */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 80px;
+    padding: 20px 40px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    @include perso(1200px){
+        padding: 20px 20px;
+        justify-content: space-between;
+    }
+    @include paysage-mobile{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 20px 30px;
+    } 
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @include perso(1070px){
+            display: none;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            font-size: 24px;
+            @include perso(1250px){
+                gap: 3%;
+            }
+            @include perso(1100px){
+                gap: 2%;
+            }
+            a{
+                color: unset;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+            a:visited{
+                color: unset;
+            }
+            span{
+                font-weight: 600;
+            }
+            li{
+                transition: .4s;
+                flex-direction: row;
+                gap: 2px;
+                z-index: 20;
+                cursor: pointer;    
+                &::after{
+                    content: '';
+                    display: block;
+                    height: 4px;
+                    width: 100%;
+                    background: $mainColor;
+                    transition: .3s;
+                }
+                &:hover{
+                    &::after{
+                        content: '';
+                        display: block;
+                        height: 4px;
+                        width: 100%;
+                        background: $mainColor;
+                        transform: translateY(-35px);
+                        animation: hoverNav .3s;
+                    }
+                }
+            }
+        }
+    }
+    .call-to-action{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        a:nth-child(1){
+            @include perso(1200px){
+                display: none;
+            } 
+        }
+        a:nth-child(2){
+            display: none;
+            @include perso(1200px){
+                display: block;
+            } 
+            @include paysage-mobile{
+                display: none;
+            } 
+        }
+        a:nth-child(3){
+            @include perso(1350px){
+                display: none;
+            } 
+        }
+        a:nth-child(4){
+            display: none;
+            @include perso(1350px){
+                display: block;
+            }
+            @include paysage-mobile{
+                display: none;
+            } 
+        }
+        @include paysage-mobile{
+            display: none;
+        }
+    }
+    .logo{
+        height: 50px;
+        display: block;
+        @include perso(1350px){
+            display: none;
+        }
+    }
+    .logo-short{
+        height: 50px;
+        display: none;
+        @include perso(1350px){
+            display: block;
+        }
+    }
+    .hamburger{
+        display: none;
+        @include perso(1070px){
+            display: flex;
+        }
+    }
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    &__barre{
+        display: block;
+        transition: .5s;
+        width: 40px;
+        height: 4px;
+        background: #fff;
+    }
+    &.actif{
+        z-index: 101;
+        position: relative;
+        .hamburger__barre{
+            transform: rotate(var(--i)) translateX(-10px);
+        }
+        .barre-middle{
+            display: none;
+        }
+    }
+}
+
+.hamburger-navigation{
+    position: fixed;
+    background: $mainColor;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px 50px;
+    color: $backgroundColor;
+    @include perso(400px){
+        padding: 30px 30px;
+    }
+    ul{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 24px;
+        @include perso(400px){
+            font-size: 20px;
+        }
+        span{
+            font-weight: 600;
+        }
+        li{
+            display: flex;
+            transition: .4s;
+            flex-direction: row;
+            gap: 2px;
+            z-index: 20;
+            cursor: pointer;
+            &::before{
+                content: '';
+                display: block;
+                margin: 0 2px 0 0;
+                height: 100%;
+                width: 4px;
+                background: $backgroundColor;
+            }
+            &:nth-last-child(-n+2){
+                &::before{
+                    content: '';
+                    display: none;
+                }
+            }
+            a{
+                color: unset;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+            a:visited{
+                color: unset;
+            }
+        }
+    }
+    .btn-style-1{
+        border: 2px solid $backgroundColor;
+        width: unset;
+        &:hover{
+            background: $backgroundColor;
+            color: $mainColor;
+        }
+        font-weight: 500;
+        &:active{
+            background: darken($color: $backgroundColor, $amount: 30);
+        }
+    }
+    .btn-style-2{
+        background: $backgroundColor;
+        border: 2px solid $backgroundColor;
+        color: $mainColor;
+        width: unset;
+        &:hover{
+            background: $mainColor;
+            color: $backgroundColor;
+        }
+        font-weight: 500;
+        &:active{
+            background: darken($color: $mainColor, $amount: 30);
+        }
+    }
+    .hamburger__barre{
+        background: $backgroundColor;
+    }
+}
+
+.stop{
+    position: fixed;
+}
+
+@keyframes hoverNav {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        height: 50%;
+        transform: translateY(-35px);
+    }
+    50%{
+        height: 50%;
+        transform: translateY(-35px);
+    }
+    75%{
+        height: 50%;
+        transform: translateY(-35px);
+    }
+    100%{
+        height: 5px;
+        transform: translateY(-35px);
+    }
+}
+
+/* ------- FIN HEADER STYLE --------- */

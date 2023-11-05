@@ -1,0 +1,144 @@
+/* ---------- STYLE FORMATION --------- */
+
+body{
+    background: url(../../public/img/fond-formation.jpg) fixed,rgb(2, 2, 16);
+    background-size: 100% 100%;
+    color: $mainColor;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 20px 15%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    @include paysage-mobile{
+        margin: 20px 10%;
+        font-size: 20px;
+    }
+    span{
+        margin: 5px;
+        font-weight: bold;
+        opacity: .6;
+    }
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: $Bellefair;
+    font-size: 42px;
+    margin: 0 15%;
+    @include paysage-mobile{
+        margin: 0 10%;
+        font-size: 26px;
+    }
+}
+
+section{
+    margin: 50px 10%;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    @include perso(1150px){
+        width: 90vw;
+        margin: 50px 5%;
+    }
+    
+    .formations-conteneur{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 5%;
+        &__card{
+            width: 100%;
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(1.9px);
+            -webkit-backdrop-filter: blur(1.9px);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            padding: 20px;
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+            display: flex;
+            flex-direction: column;
+            p{
+                @include perso(1150px){
+                    text-align: justify;
+                }
+                @include paysage-mobile{
+                    font-size: 12px;
+                }
+            }
+            &__short-informations{
+                display: flex;
+                @include perso(1150px){
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    margin: 10px;
+                    @include perso(1150px){
+                        margin: unset;
+                    }
+                }
+                img{
+                    width: 320px;
+                    height: 320px;
+                    margin: 15px 0;
+                    @include paysage-mobile{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+            .deplie-btn{
+                align-self: flex-end;
+                display: inline-block;
+            }
+            &__more-informations{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                &__info-cle{
+                    h2{
+                        font-size: 24px;
+                        font-weight: 400;
+                        text-decoration: underline;
+                        margin: 0 0 10px 0;
+                    }
+                    span{
+                        border: 2px solid $mainColor;
+                        padding: 20px;
+                    }
+                }
+                span{
+                    display: inline-block;
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+    &::before{
+        content: '';
+        display: block;
+        height: auto;
+        width: 10px;
+        background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(133,36,144,1) 48%, rgba(0,0,0,1) 100%);
+    }
+}
+
+.replie-btn, .deplie-btn{
+    text-shadow: none;
+}
+
+/* ---------- FIN STYLE FORMATION --------- */

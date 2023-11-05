@@ -1,0 +1,384 @@
+body {
+  background: url("../img/earth-1785915_1920.jpg") no-repeat;
+  background-size: 100vw;
+  color: white;
+  background-attachment: fixed;
+  background-position: 0 -700px;
+}
+@media screen and (max-width: 1250px) {
+  body {
+    background-position: 0 -400px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body {
+    background-position: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  body {
+    background: url("../img/earth-1785915_1920.jpg") no-repeat fixed;
+    background-position: 0 -500px;
+  }
+}
+
+#introduction {
+  display: flex;
+  margin: 80px;
+  flex-direction: row;
+}
+@media screen and (max-width: 1050px) {
+  #introduction {
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+  }
+}
+#introduction .contenu {
+  width: 60%;
+}
+@media screen and (max-width: 1050px) {
+  #introduction .contenu {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 750px) {
+  #introduction .contenu {
+    width: 100%;
+    margin: 30px;
+  }
+}
+#introduction .contenu div {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  gap: 30px;
+}
+@media screen and (max-width: 800px) {
+  #introduction .contenu div {
+    flex-direction: column-reverse;
+    align-items: start;
+    height: unset;
+    margin: 0 5%;
+    gap: 10px;
+  }
+}
+#introduction .contenu div h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+  #introduction .contenu div h1 {
+    font-size: 34px;
+  }
+}
+#introduction .contenu p {
+  margin: 60px 40px;
+  line-height: 30px;
+}
+@media screen and (max-width: 800px) {
+  #introduction .contenu p {
+    margin: 20px 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  #introduction .contenu p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+#introduction .contenu .logo {
+  height: 100%;
+}
+@media screen and (max-width: 800px) {
+  #introduction .contenu .logo {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #introduction .contenu .logo {
+    height: 60px;
+  }
+}
+#introduction .btn-big-conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 40%;
+}
+@media screen and (max-width: 1050px) {
+  #introduction .btn-big-conteneur {
+    width: 90%;
+    height: 300px;
+    margin: unset;
+  }
+}
+
+iframe {
+  width: 70vw;
+  border-radius: 20px;
+  height: 39.5480225989vw;
+  margin: 0 15%;
+  box-shadow: #4b4a4a 0 0 200px;
+}
+@media screen and (max-width: 700px) {
+  iframe {
+    width: 90vw;
+    height: 50.8474576271vw;
+    margin: 50px 5%;
+  }
+}
+
+#campus {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 100px 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  #campus {
+    margin: 0 5%;
+    padding: 40px 5% 20px 5%;
+  }
+}
+#campus p {
+  grid-area: 1/2/2/4;
+}
+#campus .illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+#campus figure {
+  width: 30%;
+}
+@media screen and (max-width: 850px) {
+  #campus figure {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 750px) {
+  #campus figure {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+#campus figure div {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+#campus figure div:hover + figcaption {
+  opacity: 1;
+}
+#campus figure div:hover + figcaption::before {
+  opacity: 1;
+  transform: translateX(112px);
+}
+#campus figure img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  transform: scale(1.01);
+}
+#campus figure img:hover {
+  transform: scale(1.1);
+}
+#campus figcaption {
+  display: flex;
+  opacity: 0.7;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+#campus figcaption::before {
+  transition: 0.3s;
+  margin: 0 3px;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 20px;
+  background: white;
+  opacity: 0.7;
+}
+#campus .information {
+  display: flex;
+  margin: 0 40px 40px 40px;
+}
+@media screen and (max-width: 850px) {
+  #campus .information {
+    flex-direction: column;
+    align-items: start;
+    margin: 0 5% 40px 5%;
+  }
+}
+#campus .information h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+  #campus .information h2 {
+    font-size: 30px;
+  }
+}
+#campus .information p {
+  margin: 0 0 0 40px;
+}
+@media screen and (max-width: 850px) {
+  #campus .information p {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  #campus .information p {
+    font-size: 15px;
+  }
+}
+#campus > a {
+  margin: 30px;
+  padding: 10px 4vw;
+}
+
+.menu-defilant {
+  margin: 40px;
+  width: auto;
+}
+.menu-defilant h2 {
+  margin: 40px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+@media screen and (max-width: 700px) {
+  .menu-defilant {
+    padding: 5%;
+  }
+}
+.menu-defilant__card-conteneur {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+@media screen and (max-width: 1250px) {
+  .menu-defilant__card-conteneur {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.menu-defilant__card-conteneur__card {
+  box-shadow: 22px 21px 288px -73px rgba(0, 0, 0, 0.75) inset;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-size: 100% !important;
+  background-position: center;
+  transition: 0.5s;
+}
+@media screen and (max-width: 700px) {
+  .menu-defilant__card-conteneur__card {
+    padding: 10%;
+  }
+}
+.menu-defilant__card-conteneur__card .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 24px;
+  font-weight: bold;
+}
+.menu-defilant__card-conteneur__card .numbers::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.75);
+}
+.menu-defilant__card-conteneur__card h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+@media screen and (max-width: 700px) {
+  .menu-defilant__card-conteneur__card h3 {
+    font-size: 25px;
+  }
+}
+.menu-defilant__card-conteneur__card p {
+  font-weight: 300;
+  line-height: 18px;
+}
+@media screen and (max-width: 700px) {
+  .menu-defilant__card-conteneur__card p {
+    display: none;
+  }
+}
+.menu-defilant .card-devellope {
+  width: calc((100vw - 80px) / 3);
+  height: calc((100vw - 80px) / 3);
+  justify-content: space-between;
+}
+@media screen and (max-width: 1250px) {
+  .menu-defilant .card-devellope {
+    width: calc((100vw - 80px) / 2);
+    height: calc((100vw - 80px) / 2);
+  }
+}
+@media screen and (max-width: 850px) {
+  .menu-defilant .card-devellope {
+    width: calc((100vw - 80px) / 1);
+    height: calc((100vw - 80px) / 1);
+  }
+}
+.menu-defilant .card-devellope > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu-defilant .card-petite {
+  width: calc((100vw - 80px) / 4);
+  height: calc((100vw - 80px) / 4);
+  justify-content: end;
+}
+.menu-defilant .card-petite div {
+  display: none;
+}
+@media screen and (max-width: 1250px) {
+  .menu-defilant .card-petite {
+    width: calc((100vw - 80px) / 3);
+    height: calc((100vw - 80px) / 3);
+  }
+}
+@media screen and (max-width: 850px) {
+  .menu-defilant .card-petite {
+    width: calc((100vw - 80px) / 1.3);
+    height: calc((100vw - 80px) / 1.3);
+  }
+}
+
+#card-1-index {
+  background: url("../img/campus/salle-chimie-1.jpeg");
+}
+
+#card-2-index {
+  background: url("../img/crew/team-prof.jpeg");
+}
+
+#card-3-index {
+  background: url("../img/campus/stand-de-tir.jpeg");
+}
