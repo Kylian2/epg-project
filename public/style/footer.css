@@ -24,6 +24,9 @@ footer .footer-partie-haute {
     grid-row-gap: 20px;
   }
 }
+footer .footer-partie-haute a {
+  color: white;
+}
 footer ul {
   display: flex;
   flex-direction: column;
