@@ -9,4 +9,6 @@
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-
+.inactif, .menu-actif {
+  display: none !important;
+}
