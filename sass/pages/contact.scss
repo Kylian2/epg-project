@@ -1,0 +1,104 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+// -------- STYLE CONTACT --------------------- 
+body{
+    background: url(/public/img/other-assets/background-destination-desktop.jpg);
+    color: $mainColor;
+}
+
+h1{
+    margin: 20px 15%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    @include paysage-mobile{
+        margin: 20px 10%;
+        font-size: 20px;
+    }
+    span{
+        margin: 5px;
+        font-weight: bold;
+        opacity: .6;
+    }
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: $Bellefair;
+    font-size: 42px;
+    margin: 0 15%;
+    @include paysage-mobile{
+        margin: 0 10%;
+        font-size: 26px;
+    }
+}
+
+section{
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 2%;
+    width: auto;
+    margin: 40px 5%;
+    form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        label{
+            margin-bottom: 10px;
+        }
+        .basique-information-conteneur{
+            input{
+                border: unset;
+                background: none;
+                border-bottom: 2px solid $mainColor;
+                margin-bottom: 10px;
+                height: 30px;
+                color: $mainColor;
+                font-size: 14px;
+                padding: 4px;
+            }
+            select{
+                appearance: none;
+                background: none;
+                border: unset;
+                border-radius: unset;
+                padding: 10px 0;
+                color: $mainColor;
+                font-size: 14px;
+                border-bottom: 2px solid $mainColor;
+            }
+        }
+        .message-conteneur{
+            textarea{
+                appearance: none;
+                height: 100%;
+                border: unset;
+                border-left: 2px solid rgba($color: $mainColor, $alpha: .7);
+                background: none;
+                color: $mainColor;
+                font-size: 14px;
+                padding: 4px;
+            }
+        }
+        .send-btn{  
+            grid-area: 2 / 1 / 3 / 3;
+            justify-self: center;
+            display: block;
+            padding: 10px 20px;
+            width: fit-content;
+            appearance: none;
+            font-size: 13px;
+        }
+    }
+}
+// ---------------- FIN STYLE CONTACT ----------------
