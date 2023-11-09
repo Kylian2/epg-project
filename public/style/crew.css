@@ -1,0 +1,30 @@
+h1 {
+    margin: 20px 15%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+  }
+  @media screen and (max-width: 700px) {
+    h1 {
+      margin: 20px 10%;
+      font-size: 20px;
+    }
+  }
+  h1 span {
+    margin: 5px;
+    font-weight: bold;
+    opacity: 0.6;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    font-family: "Bellefair", "Barlow Semi Condensed", sans-serif;
+    font-size: 42px;
+    margin: 0 15%;
+  }
+  @media screen and (max-width: 700px) {
+    h3 {
+      margin: 0 10%;
+      font-size: 26px;
+    }
+  }
