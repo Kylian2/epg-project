@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 /* ---------- HEADER STYLE ----------- */
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 header {
   display: flex;
   flex-direction: row;
@@ -592,105 +590,5 @@ grid-row-gap: 0px;
   }
 }
 /*----------  FIN ANIMATIONS -------*/
-/* ---- VARIABLE ------- */
-body {
-  background: url(/public/img/other-assets/background-destination-desktop.jpg);
-  color: white;
-}
-
-h1 {
-  margin: 20px 15%;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 28px;
-}
-@media screen and (max-width: 700px) {
-  h1 {
-    margin: 20px 10%;
-    font-size: 20px;
-  }
-}
-h1 span {
-  margin: 5px;
-  font-weight: bold;
-  opacity: 0.6;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-family: "Bellefair", "Barlow Semi Condensed", sans-serif;
-  font-size: 42px;
-  margin: 0 15%;
-}
-@media screen and (max-width: 700px) {
-  h3 {
-    margin: 0 10%;
-    font-size: 26px;
-  }
-}
-
-section {
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(1.9px);
-  -webkit-backdrop-filter: blur(1.9px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  padding: 2%;
-  width: auto;
-  margin: 40px 5%;
-}
-section form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  gap: 20px;
-}
-section form div {
-  display: flex;
-  flex-direction: column;
-}
-section form label {
-  margin-bottom: 10px;
-}
-section form .basique-information-conteneur input {
-  border: unset;
-  background: none;
-  border-bottom: 2px solid white;
-  margin-bottom: 10px;
-  height: 30px;
-  color: white;
-  font-size: 14px;
-  padding: 4px;
-}
-section form .basique-information-conteneur select {
-  appearance: none;
-  background: none;
-  border: unset;
-  border-radius: unset;
-  padding: 10px 0;
-  color: white;
-  font-size: 14px;
-  border-bottom: 2px solid white;
-}
-section form .message-conteneur textarea {
-  appearance: none;
-  height: 100%;
-  border: unset;
-  border-left: 2px solid rgba(255, 255, 255, 0.7);
-  background: none;
-  color: white;
-  font-size: 14px;
-  padding: 4px;
-}
-section form .send-btn {
-  grid-area: 2/1/3/3;
-  justify-self: center;
-  display: block;
-  padding: 10px 20px;
-  width: fit-content;
-  appearance: none;
-  font-size: 13px;
-}
 
 /*# sourceMappingURL=style.css.map */
