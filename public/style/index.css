@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 /* ------- STYLE INDEX ---------- */
 body {
-  background: url("../img/earth-1785915_1920.jpg") no-repeat;
+  background: url("../img/earth-1785915_1920.jpg") no-repeat, #2c2d33;
   background-size: 100vw;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;

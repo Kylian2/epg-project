@@ -3,7 +3,7 @@
 /* ------- STYLE INDEX ---------- */
 
 body{
-    background: url("../img/earth-1785915_1920.jpg") no-repeat ;
+    background: url("../img/earth-1785915_1920.jpg") no-repeat, $secondaireColor ;
     background-size: 100vw;
     color: $mainColor;
     font-family: $font;
