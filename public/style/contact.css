@@ -101,5 +101,48 @@ section form .send-btn {
   appearance: none;
   font-size: 13px;
 }
+section .map-conteneur h4 {
+  font-size: 32px;
+  color: red;
+}
+section .map-conteneur__header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+}
+section .map-conteneur__header ul li {
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+section .map-conteneur__header ul li:hover {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: 0.3s;
+  text-align: center;
+}
+section .map-conteneur__informations-pratique p {
+  margin: 7px 0;
+}
+
+.selectionne {
+  border: 2px solid white;
+  background: white;
+  color: #2c2d33;
+  border-radius: 25px;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: 500;
+}
+.selectionne:hover {
+  background: white;
+  color: #2c2d33;
+}
+.selectionne:active {
+  background: #b3b3b3;
+}
 
 /*# sourceMappingURL=contact.css.map */

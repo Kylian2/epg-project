@@ -101,9 +101,55 @@ section{
             font-size: 13px;
         }
     }
+    .map-conteneur{
+        h4{
+            font-size: 32px;
+            color: red;
+        }
+        &__header{
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 4%;
+                li{
+                    padding: 10px 20px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    border: 2px solid rgba(255, 255, 255, 0);
+                    &:hover{
+                        border: 2px solid white;
+                        border-radius: 25px;
+                        padding: 10px 20px;
+                        transition: .3s;
+                        text-align: center;
+                    }   
+                }
+            }
+        }
+        &__informations-pratique{
+            p{
+                margin: 7px 0;
+            }
+        }
+    }
 }
 
-.map__header{
-    
+.selectionne{
+    border: 2px solid white;
+    background: $mainColor;
+    color: $backgroundColor;
+    border-radius: 25px;
+    transition: .3s;
+    text-align: center;
+    &:hover{
+        background: white;
+        color: $backgroundColor;
+    }
+    font-weight: 500;
+    &:active{
+        background: darken($color: $mainColor, $amount: 30);
+    }
 }
+
 // ---------------- FIN STYLE CONTACT ----------------
