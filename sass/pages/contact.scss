@@ -4,6 +4,7 @@
 // -------- STYLE CONTACT --------------------- 
 body{
     background: url("../img/other-assets/background-destination-desktop.jpg");
+    background-attachment: fixed;
     color: $mainColor;
 }
 
@@ -100,5 +101,9 @@ section{
             font-size: 13px;
         }
     }
+}
+
+.map__header{
+    
 }
 // ---------------- FIN STYLE CONTACT ----------------

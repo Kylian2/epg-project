@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 body {
   background: url("../img/other-assets/background-destination-desktop.jpg");
+  background-attachment: fixed;
   color: white;
 }
 
