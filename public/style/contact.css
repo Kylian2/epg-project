@@ -142,7 +142,6 @@ section form .send-btn {
 }
 .map-conteneur__map {
   grid-area: 2/2/3/3;
-  border: 2px solid red;
 }
 
 .selectionne {
@@ -160,6 +159,11 @@ section form .send-btn {
 }
 .selectionne:active {
   background: #b3b3b3;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
 }
 
 /*# sourceMappingURL=contact.css.map */
