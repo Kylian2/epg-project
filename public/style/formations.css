@@ -34,6 +34,17 @@ h1 span {
   opacity: 0.6;
 }
 
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
 h3 {
   text-transform: uppercase;
   font-family: "Bellefair", "Barlow Semi Condensed", sans-serif;
@@ -47,19 +58,19 @@ h3 {
   }
 }
 
-section {
+section.formation {
   margin: 50px 10%;
   display: flex;
   flex-direction: row;
   width: 80vw;
 }
 @media screen and (max-width: 1150px) {
-  section {
+  section.formation {
     width: 90vw;
     margin: 50px 5%;
   }
 }
-section .formations-conteneur {
+section.formation .formations-conteneur {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -68,11 +79,11 @@ section .formations-conteneur {
   padding: 5%;
 }
 @media screen and (max-width: 700px) {
-  section .formations-conteneur {
+  section.formation .formations-conteneur {
     padding: 0;
   }
 }
-section .formations-conteneur__card {
+section.formation .formations-conteneur__card {
   width: 100%;
   background: rgba(255, 255, 255, 0.12);
   border-radius: 16px;
@@ -86,76 +97,76 @@ section .formations-conteneur__card {
   flex-direction: column;
 }
 @media screen and (max-width: 700px) {
-  section .formations-conteneur__card {
+  section.formation .formations-conteneur__card {
     padding: 5%;
   }
 }
 @media screen and (max-width: 1150px) {
-  section .formations-conteneur__card p {
+  section.formation .formations-conteneur__card p {
     text-align: justify;
   }
 }
 @media screen and (max-width: 700px) {
-  section .formations-conteneur__card p {
+  section.formation .formations-conteneur__card p {
     font-size: 12px;
   }
 }
-section .formations-conteneur__card__short-informations {
+section.formation .formations-conteneur__card__short-informations {
   display: flex;
   gap: 10px;
 }
 @media screen and (max-width: 1150px) {
-  section .formations-conteneur__card__short-informations {
+  section.formation .formations-conteneur__card__short-informations {
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
 }
-section .formations-conteneur__card__short-informations div {
+section.formation .formations-conteneur__card__short-informations div {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 @media screen and (max-width: 1150px) {
-  section .formations-conteneur__card__short-informations div {
+  section.formation .formations-conteneur__card__short-informations div {
     margin: unset;
   }
 }
-section .formations-conteneur__card__short-informations img {
+section.formation .formations-conteneur__card__short-informations img {
   width: 320px;
   height: 100%;
   border-radius: 10px;
 }
 @media screen and (max-width: 700px) {
-  section .formations-conteneur__card__short-informations img {
+  section.formation .formations-conteneur__card__short-informations img {
     width: 100%;
     height: auto;
   }
 }
-section .formations-conteneur__card .deplie-btn {
+section.formation .formations-conteneur__card .deplie-btn {
   align-self: flex-end;
   display: inline-block;
 }
-section .formations-conteneur__card__more-informations {
+section.formation .formations-conteneur__card__more-informations {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-section .formations-conteneur__card__more-informations__info-cle h2 {
+section.formation .formations-conteneur__card__more-informations__info-cle h2 {
   font-size: 24px;
   font-weight: 400;
   text-decoration: underline;
   margin: 0 0 10px 0;
 }
-section .formations-conteneur__card__more-informations__info-cle span {
+section.formation .formations-conteneur__card__more-informations__info-cle span {
   border: 2px solid white;
   padding: 20px;
 }
-section .formations-conteneur__card__more-informations span {
+section.formation .formations-conteneur__card__more-informations span {
   display: inline-block;
   align-self: flex-end;
 }
-section::before {
+section.formation::before {
   content: "";
   display: block;
   height: auto;
@@ -163,13 +174,49 @@ section::before {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #852490 48%, black 100%);
 }
 @media screen and (max-width: 700px) {
-  section::before {
+  section.formation::before {
     display: none;
   }
 }
 
 .replie-btn, .deplie-btn {
   text-shadow: none;
+}
+
+.selections {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 3%;
+  margin: 5%;
+}
+.selections p {
+  line-height: 25px;
+  font-size: 18px;
+}
+.selections .epreuves-containeurs {
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selections .epreuves-containeurs__epreuves {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.selections .epreuves-containeurs__epreuves h4 {
+  font-size: 22px;
+  display: inline-block;
+  width: auto;
+  text-transform: uppercase;
+}
+
+.rotate {
+  transform: rotate(-90deg);
 }
 
 /* ---------- FIN STYLE FORMATION --------- */

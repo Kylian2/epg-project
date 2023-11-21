@@ -25,8 +25,12 @@ hamburgers.forEach((hamburger) => {
     });
 });
 
+// Javascript pour les pages des formations
+
 deplieBtn = document.querySelectorAll('.deplie-btn');
 replieBtn = document.querySelectorAll('.replie-btn');
+
+moreBtn = document.querySelectorAll('.more');
 
 deplieBtn.forEach((btn) =>{
     btn.addEventListener('click',function(){
@@ -50,5 +54,4 @@ replieBtn.forEach((btn) =>{
         console.log('click');
     });
 });
-
 
