@@ -5,7 +5,7 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 50px 80px;
     padding: 20px 40px;
     align-items: center;
@@ -118,20 +118,25 @@ header{
             display: none;
         }
     }
-    .logo{
-        height: 50px;
-        display: block;
+    .logo-container{
+        &__logo{
+            height: 50px;
+        }
         @include perso(1350px){
             display: none;
         }
     }
-    .logo-short{
-        height: 50px;
+
+    .short-logo-container{
         display: none;
+        &__logo{
+            height: 50px;
+        }
         @include perso(1350px){
             display: block;
         }
     }
+    
     .hamburger{
         display: none;
         @include perso(1070px){
