@@ -72,7 +72,7 @@ section .formations-conteneur__card {
   backdrop-filter: blur(1.9px);
   -webkit-backdrop-filter: blur(1.9px);
   border: 1px solid rgba(255, 255, 255, 0.25);
-  padding: 20px;
+  padding: 30px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
@@ -89,6 +89,7 @@ section .formations-conteneur__card {
 }
 section .formations-conteneur__card__short-informations {
   display: flex;
+  gap: 10px;
 }
 @media screen and (max-width: 1150px) {
   section .formations-conteneur__card__short-informations {
@@ -101,7 +102,6 @@ section .formations-conteneur__card__short-informations div {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 10px;
 }
 @media screen and (max-width: 1150px) {
   section .formations-conteneur__card__short-informations div {
@@ -110,8 +110,8 @@ section .formations-conteneur__card__short-informations div {
 }
 section .formations-conteneur__card__short-informations img {
   width: 320px;
-  height: 320px;
-  margin: 15px 0;
+  height: 100%;
+  border-radius: 10px;
 }
 @media screen and (max-width: 700px) {
   section .formations-conteneur__card__short-informations img {
