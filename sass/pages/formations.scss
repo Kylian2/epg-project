@@ -4,7 +4,8 @@
 
 body{
     background: url("../../public/img/fond-formation.jpg") fixed, $secondaireColor ;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: -200px;
     color: $mainColor;
 }
 
