@@ -57,6 +57,9 @@ section{
         gap: 30px;
         flex-wrap: wrap;
         padding: 5%;
+        @include paysage-mobile{
+            padding: 0;
+        }
         &__card{
             width: 100%;
             background: rgba(255, 255, 255, 0.12);
@@ -69,6 +72,9 @@ section{
             text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
             display: flex;
             flex-direction: column;
+            @include paysage-mobile{
+                padding: 5%;
+            }
             p{
                 @include perso(1150px){
                     text-align: justify;
@@ -107,6 +113,7 @@ section{
                 align-self: flex-end;
                 display: inline-block;
             }
+            
             &__more-informations{
                 display: flex;
                 flex-direction: column;
@@ -136,6 +143,9 @@ section{
         height: auto;
         width: 10px;
         background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(133,36,144,1) 48%, rgba(0,0,0,1) 100%);
+        @include paysage-mobile{
+            display: none;
+        }
     }
 }
 

@@ -64,6 +64,11 @@ section .formations-conteneur {
   flex-wrap: wrap;
   padding: 5%;
 }
+@media screen and (max-width: 700px) {
+  section .formations-conteneur {
+    padding: 0;
+  }
+}
 section .formations-conteneur__card {
   width: 100%;
   background: rgba(255, 255, 255, 0.12);
@@ -76,6 +81,11 @@ section .formations-conteneur__card {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 700px) {
+  section .formations-conteneur__card {
+    padding: 5%;
+  }
 }
 @media screen and (max-width: 1150px) {
   section .formations-conteneur__card p {
@@ -148,6 +158,11 @@ section::before {
   height: auto;
   width: 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #852490 48%, black 100%);
+}
+@media screen and (max-width: 700px) {
+  section::before {
+    display: none;
+  }
 }
 
 .replie-btn, .deplie-btn {

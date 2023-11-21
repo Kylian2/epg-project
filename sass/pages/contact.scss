@@ -55,12 +55,19 @@ section{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         gap: 20px;
+        @include perso(850px){
+            grid-template-columns: 100%; 
+            grid-template-rows: 1fr 1fr 40px; 
+        }
         div{
             display: flex;
             flex-direction: column;
         }
         label{
             margin-bottom: 10px;
+            @include perso(750px){
+                font-size: 14px;
+            }
         }
         .basique-information-conteneur{
             input{
@@ -72,6 +79,7 @@ section{
                 color: $mainColor;
                 font-size: 14px;
                 padding: 4px;
+                width: 100%;
             }
             select{
                 appearance: none;
@@ -82,6 +90,9 @@ section{
                 color: $mainColor;
                 font-size: 14px;
                 border-bottom: 2px solid $mainColor;
+            }
+            @include perso(850px){
+                grid-area: 1 / 1 / 2 / 2;
             }
         }
         .message-conteneur{
@@ -95,6 +106,9 @@ section{
                 font-size: 14px;
                 padding: 4px;
             }
+            @include perso(850px){
+                grid-area: 2 / 1 / 3 / 2;
+            }
         }
         .send-btn{  
             grid-area: 2 / 1 / 3 / 3;
@@ -104,6 +118,9 @@ section{
             width: fit-content;
             appearance: none;
             font-size: 13px;
+            @include perso(850px){
+                grid-area: 3 / 1 / 4 / 2;
+            }
         }
     }
 }
@@ -113,6 +130,10 @@ section{
     grid-template-rows: auto auto; 
     grid-column-gap: 0px;
     grid-row-gap: 20px;
+    @include perso(850px){
+        grid-template-columns: 100%; 
+        grid-template-rows: 50px 1fr 400px; 
+    }
     &__header{
         grid-area: 1 / 1 / 2 / 3;
         margin-bottom: 10px;
@@ -135,6 +156,9 @@ section{
                 }   
             }
         }
+        @include perso(850px){
+            grid-area: 1 / 1 / 2 / 2;
+        }
     }
     &__informations-pratique{
         grid-area: 2 / 1 / 3 / 2;
@@ -145,12 +169,18 @@ section{
                 font-weight: 600;
             }
         }
+        @include perso(850px){
+            grid-area: 2 / 1 / 3 / 2;
+        }
         
     }
     &__map{
         grid-area: 2 / 2 / 3 / 3;
         border: 20px;
         overflow: hidden;
+        @include perso(850px){
+            grid-area: 3 / 1 / 4 / 2;
+        }
     }
 }
 
