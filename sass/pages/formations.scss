@@ -5,8 +5,10 @@
 body{
     background: url("../../public/img/fond-formation.jpg") fixed, $secondaireColor ;
     background-size: auto 100%;
-    background-position: -200px;
     color: $mainColor;
+    @include perso(750px){
+        background-position: -200px;
+    }
 }
 
 main{
