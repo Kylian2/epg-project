@@ -5,9 +5,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 L.marker([ 48.700001, 2.05]).addTo(map);
 
-
-//Code pour la page de contact, le composant qui permet de changer les coordonées
-
 var campusBtn = document.querySelectorAll('.map-conteneur__header li');
 
 var adresse = document.getElementById('adresse-conteneur');
