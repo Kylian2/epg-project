@@ -30,7 +30,7 @@ hamburgers.forEach((hamburger) => {
 deplieBtn = document.querySelectorAll('.deplie-btn');
 replieBtn = document.querySelectorAll('.replie-btn');
 
-moreBtn = document.querySelectorAll('.more');
+epreuveBtn = document.querySelectorAll('.more');
 
 deplieBtn.forEach((btn) =>{
     btn.addEventListener('click',function(){
@@ -50,8 +50,11 @@ replieBtn.forEach((btn) =>{
         moreInfo.classList.toggle('inactif');
         let deplieBtnLocal = cardContainer.querySelector('.deplie-btn');
         deplieBtnLocal.classList.toggle('inactif');
-        console.log(moreInfo);
-        console.log('click');
     });
 });
 
+epreuveBtn.forEach((btn) => {
+    btn.addEventListener('click', function(){
+        btn.closest('.epreuves-containeurs__epreuves').querySelector('.epreuve-descriptif').classList.toggle('inactif');
+    });
+});
