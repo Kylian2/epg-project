@@ -11,7 +11,7 @@
 }
 .btn-style-1:hover {
   background: white;
-  color: #2c2d33;
+  color: #141415;
 }
 .btn-style-1:active {
   background: #b3b3b3;
@@ -20,7 +20,7 @@
 .btn-style-2 {
   border: 2px solid white;
   background: white;
-  color: #2c2d33;
+  color: #141415;
   border-radius: 25px;
   padding: 10px 20px;
   cursor: pointer;
@@ -30,7 +30,7 @@
 }
 .btn-style-2:hover {
   background: white;
-  color: #2c2d33;
+  color: #141415;
 }
 .btn-style-2:active {
   background: #b3b3b3;
@@ -81,7 +81,7 @@
   width: 200px;
   height: 200px;
   background: white;
-  color: #2c2d33;
+  color: #141415;
   border-radius: 50%;
   display: flex;
   align-items: center;

@@ -1,0 +1,23 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+body{
+    background: $secondaireColor;
+    color: $mainColor;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div{
+    margin: 2%;
+}
+th, td{
+    text-align: center;
+    border: 1px solid $mainColor;
+    padding: 5px 10px;
+}

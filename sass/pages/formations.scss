@@ -232,6 +232,17 @@ h6{
             }
         }
     }
+    .legende{
+        font-size: 14px;
+        font-weight: 300;
+        a{
+            color: unset;
+            text-decoration: underline;
+            &:hover{
+                color: rgb(15, 15, 90);
+            }
+        }
+    }
 }
 
 .pastille{

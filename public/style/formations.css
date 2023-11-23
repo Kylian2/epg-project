@@ -253,6 +253,17 @@ h6 {
   text-transform: unset;
   font-weight: unset;
 }
+.selections .legende {
+  font-size: 14px;
+  font-weight: 300;
+}
+.selections .legende a {
+  color: unset;
+  text-decoration: underline;
+}
+.selections .legende a:hover {
+  color: #0f0f5a;
+}
 
 .pastille {
   border-radius: 50%;
