@@ -1,6 +1,6 @@
 /* ---- VARIABLE ------- */
 body {
-  background: url("../img/other-assets/background-destination-desktop.jpg");
+  background: url("../img/other-assets/background-destination-desktop.jpg"), black;
   background-attachment: fixed;
   color: white;
 }

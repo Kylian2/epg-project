@@ -3,7 +3,7 @@
 /* ---------- STYLE FORMATION --------- */
 
 body{
-    background: url("../../public/img/fond-formation.jpg") fixed, $secondaireColor ;
+    background: url("../../public/img/fond-formation.jpg") fixed, black ;
     background-size: auto 100%;
     color: $mainColor;
     @include perso(750px){

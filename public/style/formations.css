@@ -1,7 +1,7 @@
 /* ---- VARIABLE ------- */
 /* ---------- STYLE FORMATION --------- */
 body {
-  background: url("../../public/img/fond-formation.jpg") fixed, #2c2d33;
+  background: url("../../public/img/fond-formation.jpg") fixed, black;
   background-size: auto 100%;
   color: white;
 }
