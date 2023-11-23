@@ -1,4 +1,8 @@
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* ------- STYLE INDEX ---------- */
 body {
   background: url("../img/earth-1785915_1920.jpg"), black;

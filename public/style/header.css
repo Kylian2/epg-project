@@ -1,4 +1,8 @@
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* ---------- HEADER STYLE ----------- */
 header {
   display: flex;

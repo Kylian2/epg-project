@@ -1,5 +1,13 @@
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* ---------- HEADER STYLE ----------- */
 header {
   display: flex;
@@ -309,6 +317,10 @@ header .hamburger {
 }
 /* ------- FIN HEADER STYLE --------- */
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* ----- FOOTER STYLE ------ */
 footer {
   display: flex;
@@ -470,6 +482,10 @@ grid-row-gap: 0px;
 
 /* ----------- FIN RESET CSS ---------- */
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 /* -------- BOUTON STYLE --------- */
 .btn-style-1 {
   border: 2px solid white;

@@ -8,7 +8,6 @@ body{
 
 main{
     display: flex;
-    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -20,4 +19,13 @@ th, td{
     text-align: center;
     border: 1px solid $mainColor;
     padding: 5px 10px;
+}
+
+
+.moi{
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        background: var(--main-bg-color);
+    }
 }

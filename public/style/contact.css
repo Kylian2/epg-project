@@ -1,4 +1,8 @@
 /* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
 body {
   background: url("../img/other-assets/background-destination-desktop.jpg"), black;
   background-attachment: fixed;

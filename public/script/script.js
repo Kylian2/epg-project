@@ -58,3 +58,15 @@ epreuveBtn.forEach((btn) => {
         btn.closest('.epreuves-containeurs__epreuves').querySelector('.epreuves-containeurs__epreuves__informations').classList.toggle('inactif');
     });
 });
+
+moi = document.querySelectorAll('.moi');
+
+var randomColor = "#"+((1<<24)*Math.random()|0).toString(16); 
+document.documentElement.style.setProperty('--main-bg-color', randomColor);
+
+moi.forEach((btn) => {
+    btn.addEventListener('mouseover', function(){
+        var randomColor = "#"+((1<<24)*Math.random()|0).toString(16); 
+        document.documentElement.style.setProperty('--main-bg-color', randomColor);
+    });
+});
