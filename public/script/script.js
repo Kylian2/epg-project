@@ -55,6 +55,6 @@ replieBtn.forEach((btn) =>{
 
 epreuveBtn.forEach((btn) => {
     btn.addEventListener('click', function(){
-        btn.closest('.epreuves-containeurs__epreuves').querySelector('.epreuve-descriptif').classList.toggle('inactif');
+        btn.closest('.epreuves-containeurs__epreuves').querySelector('.epreuves-containeurs__epreuves__informations').classList.toggle('inactif');
     });
 });

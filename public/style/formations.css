@@ -183,6 +183,19 @@ section.formation::before {
   text-shadow: none;
 }
 
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin: 20px 0 10px 0;
+}
+
 .selections {
   background: rgba(255, 255, 255, 0.12);
   border-radius: 16px;
@@ -214,6 +227,51 @@ section.formation::before {
   display: inline-block;
   width: auto;
   text-transform: uppercase;
+}
+.selections .epreuves-containeurs__epreuves__informations {
+  margin: 20px 0 15px 20px;
+}
+@media screen and (max-width: 700px) {
+  .selections .epreuves-containeurs__epreuves__informations {
+    margin-left: 0;
+  }
+}
+.selections .epreuves-containeurs__epreuves__informations li {
+  margin: 7px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.selections .epreuves-containeurs__epreuves__informations .informations-supplementaires {
+  text-transform: lowercase;
+  font-weight: 400;
+}
+.selections .epreuves-containeurs__epreuves__informations .informations-supplementaires::before {
+  content: "-";
+  margin: 0 4px;
+}
+.selections .epreuves-containeurs__epreuves__informations .info-pastille li {
+  text-transform: unset;
+  font-weight: unset;
+}
+
+.pastille {
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px 4px;
+}
+.pastille.violette {
+  background: purple;
+}
+.pastille.bleue {
+  background: blue;
+}
+.pastille.jaune {
+  background: yellow;
+}
+.pastille.rouge {
+  background: red;
 }
 
 .btn-style-3 {
