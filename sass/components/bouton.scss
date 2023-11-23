@@ -1,3 +1,5 @@
+@import "../utils/mixins";
+@import "../utils/variables";
 /* -------- BOUTON STYLE --------- */
 
 .btn-style-1{
@@ -43,6 +45,7 @@
     gap: 10px;
     color: $mainColor;
     width: 100%;
+    cursor: pointer;
     a{
         color: $mainColor;
     }

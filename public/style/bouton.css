@@ -1,3 +1,5 @@
+/* ---- VARIABLE ------- */
+/* -------- BOUTON STYLE --------- */
 .btn-style-1 {
   border: 2px solid white;
   border-radius: 25px;
@@ -41,7 +43,8 @@
   align-items: center;
   gap: 10px;
   color: white;
-  width: 30%;
+  width: 100%;
+  cursor: pointer;
 }
 .btn-style-3 a {
   color: white;
@@ -114,6 +117,9 @@
 .btn-big span {
   font-size: 32px;
 }
+
+/* ----------- FIN STYLE BOUTON -------- */
+/*------ ANIMATIONS ----------- */
 @keyframes bigger {
   0% {
     width: 200px;
@@ -128,3 +134,6 @@
     height: 250px;
   }
 }
+/*----------  FIN ANIMATIONS -------*/
+
+/*# sourceMappingURL=bouton.css.map */
