@@ -11,25 +11,6 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-attachment: fixed;
 }
-@media screen and (max-width: 1250px) {
-  body {
-    background-position: 0 -400px;
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 1250px) {
-  body {
-    background-position: 0;
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 750px) {
-  body {
-    background: url("../img/earth-1785915_1920.jpg") fixed, black;
-    background-position: 0;
-    background-attachment: fixed;
-  }
-}
 
 #introduction {
   display: flex;

@@ -8,19 +8,6 @@ body{
     color: $mainColor;
     font-family: $font;
     background-attachment: fixed;
-    @include perso(1250px){
-        background-position: 0 -400px;
-        background-attachment: fixed;
-    }
-    @include perso(1250px){
-        background-position: 0;
-        background-attachment: fixed;
-    }
-    @include perso(750px){
-        background: url("../img/earth-1785915_1920.jpg") fixed, black;
-        background-position: 0;
-        background-attachment: fixed;
-    }
 }
 
 #introduction{
