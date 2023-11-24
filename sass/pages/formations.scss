@@ -3,8 +3,8 @@
 /* ---------- STYLE FORMATION --------- */
 
 body{
-    background: url("../../public/img/fond-formation.jpg") fixed, black ;
-    background-size: auto 100%;
+    background: url("../../public/img/prise-vue-contre-plongee-du-ciel-etoile-fascinant.jpg") fixed, black ;
+    background-size: 100% 100%;
     color: $mainColor;
     @include perso(750px){
         background-position: -200px;
@@ -138,7 +138,7 @@ section.formation{
         display: block;
         height: auto;
         width: 10px;
-        background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(133,36,144,1) 48%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(128, 139, 222, 0.3) 48%, rgba(0,0,0,0.2) 100%);
         @include paysage-mobile{
             display: none;
         }
