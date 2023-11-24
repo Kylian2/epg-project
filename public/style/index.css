@@ -5,12 +5,11 @@
 
 /* ------- STYLE INDEX ---------- */
 body {
-  background: url("../img/earth-1785915_1920.jpg"), black;
+  background: url("../img/belle-voie-lactee-dans-ciel-nocturne.jpg"), black;
   background-size: 100vw;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-attachment: fixed;
-  background-position: 0 -700px;
 }
 @media screen and (max-width: 1250px) {
   body {

@@ -3,12 +3,11 @@
 /* ------- STYLE INDEX ---------- */
 
 body{
-    background: url("../img/earth-1785915_1920.jpg"), black ;
+    background: url("../img/belle-voie-lactee-dans-ciel-nocturne.jpg"), black ;
     background-size: 100vw;
     color: $mainColor;
     font-family: $font;
     background-attachment: fixed;
-    background-position: 0 -700px;
     @include perso(1250px){
         background-position: 0 -400px;
         background-attachment: fixed;
