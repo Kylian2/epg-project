@@ -1,12 +1,6 @@
-// importer les differents fichier sass qui compose le site web
+// importer les differents fichier GLOBAUX sass qui compose le site web
 @import "./utils/mixins";
 @import "./utils/variables";
-@import "./layout/header";
-@import "./layout/footer";
 @import "./utils/reset";
 
 @import "./components/bouton";
-//@import "./pages/index";
-//@import "./pages/formations";
-//@import "./pages/contact";
-

@@ -16,22 +16,6 @@ main{
     flex-direction: column;
 }
 
-h1{
-    margin: 20px 15%;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 28px;
-    @include paysage-mobile{
-        margin: 20px 10%;
-        font-size: 20px;
-    }
-    span{
-        margin: 5px;
-        font-weight: bold;
-        opacity: .6;
-    }
-}
-
 h2{
     font-size: 32px;
     text-transform: uppercase;
