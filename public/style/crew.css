@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../img/crew/fond.jpg), black;
+  background: url(../img/voie-lactee.jpg), black;
   background-size: 100vw 100vh;
   background-attachment: fixed;
   color: white;
@@ -105,11 +105,12 @@ body {
 }
 .professeur-conteneur__img-conteneur img {
   height: auto;
-  width: 100%;
+  width: 450px;
 }
 @media screen and (max-width: 950px) {
   .professeur-conteneur__img-conteneur {
     width: 55%;
+    align-items: center;
   }
 }
 

@@ -2,7 +2,7 @@
 @import "../utils/variables";
 
 body{
-    background: url(../img/crew/fond.jpg), black;
+    background: url(../img/voie-lactee.jpg), black;
     background-size: 100vw 100vh;
     background-attachment: fixed;
     color: $mainColor;
@@ -81,10 +81,11 @@ body{
         justify-content: flex-end;
         img{
             height: auto;
-            width: 100%;
+            width: 450px;
         }
         @include perso(950px){
             width: 55%;
+            align-items: center;
         }
     }
 }
