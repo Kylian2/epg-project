@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../img/voie-lactee.jpg), black;
+  background: url("../img/fond/fond-crew.jpg"), black;
   background-size: 100vw 100vh;
   background-attachment: fixed;
   color: white;

@@ -5,7 +5,7 @@
 
 /* ------- STYLE INDEX ---------- */
 body {
-  background: url("../img/belle-voie-lactee-dans-ciel-noct.jpg"), black;
+  background: url("../img/fond/fond-index.jpg"), black;
   background-size: 100vw;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -362,7 +362,7 @@ iframe {
 }
 
 #card-1-index {
-  background: url("../img/campus/salle-chimie-1.jpeg");
+  background: url("../img/campus/campus-dassault/salle-chimie-1.jpeg");
 }
 
 #card-2-index {
@@ -370,7 +370,7 @@ iframe {
 }
 
 #card-3-index {
-  background: url("../img/campus/stand-de-tir.jpeg");
+  background: url("../img/campus/station-copernic/stand-de-tir.jpeg");
 }
 
 /* -------FIN STYLE INDEX ---------- */
