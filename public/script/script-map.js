@@ -1,4 +1,4 @@
-var map = L.map('map').setView([ 48.700001, 2.05], 13);
+var map = L.map('map').setView([ 48.700001, 2.05], 8);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -15,15 +15,15 @@ var latitude = document.getElementById('latitude-conteneur');
 var longitude = document.getElementById('longitude-conteneur');
 
 const informationsPratiques = {
-    campus1 : {
+    dassault : {
         adresse: "Rue des Ecoles 25048 Saint-Etienne",
         tel : "+33 (0)4 76 93 00 00",
         mail : "campus1@formation-pro.fr",
         responsable : "Mme Marie Poulain",
-        x : 48.700001, 
-        y : 2.05
+        x : 35.15753, 
+        y : -115.116806
     },
-    campus2 : {
+    copernic : {
         adresse: "Rue du Commerce 25048 Saint-Etienne",
         tel : "+33 (0)6 76 20 11 00",
         mail : "campus2@formation-pro.fr",
@@ -31,13 +31,13 @@ const informationsPratiques = {
         x : 68.720441, 
         y : -29.86084
     },
-    campus3 : {
+    darwin : {
         adresse: "Rue des Marché 25048 Saint-Etienne",
         tel : "+33 (0)6 76 20 11 00",
         mail : "campus3@formation-pro.fr",
         responsable : "Mlle Sophie Martin", 
-        x : 35.15753, 
-        y : -115.116806
+        x : 48.700001, 
+        y : 2.05
     }
 }
 campusBtn.forEach((btn) =>{
@@ -45,7 +45,7 @@ campusBtn.forEach((btn) =>{
         var btnSelection = document.querySelector('.selectionne');
         btnSelection.classList.toggle('selectionne');
         this.classList.toggle('selectionne');
-        var campus = this.getAttribute('value');
+        var campus = this.getAttribute('id');
         adresse.textContent = informationsPratiques[campus]["adresse"];
         tel.textContent = informationsPratiques[campus]["tel"];
         mail.textContent = informationsPratiques[campus]["mail"];
@@ -57,6 +57,5 @@ campusBtn.forEach((btn) =>{
         longitude.textContent = mapCoord[1];
         map.setView(mapCoord, 8);
         L.marker(mapCoord).addTo(map);
-        console.log(campus);
     });
 });
