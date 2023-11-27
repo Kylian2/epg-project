@@ -6,7 +6,7 @@
 /* ------- STYLE INDEX ---------- */
 body {
   background: url("../img/fond/fond-index.jpg"), black;
-  background-size: 100vw;
+  background-size: 100% 100%;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-attachment: fixed;
