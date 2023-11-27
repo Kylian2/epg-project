@@ -50,7 +50,8 @@ body {
 }
 @media screen and (max-width: 950px) {
   .professeur-conteneur__info {
-    width: 80%;
+    width: 95%;
+    min-width: unset;
     text-align: center;
   }
 }
@@ -93,6 +94,12 @@ body {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 700px) {
+  .professeur-conteneur__info p {
+    font-size: 14px;
+    margin: 15px 1%;
+  }
+}
 @media screen and (max-width: 950px) {
   .professeur-conteneur__info .boule-conteneur {
     margin: 2vh auto;
@@ -106,6 +113,11 @@ body {
 .professeur-conteneur__img-conteneur img {
   height: auto;
   width: 450px;
+}
+@media screen and (max-width: 700px) {
+  .professeur-conteneur__img-conteneur img {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 950px) {
   .professeur-conteneur__img-conteneur {
