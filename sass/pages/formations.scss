@@ -6,9 +6,6 @@ body{
     background: url("../../public/img/fond/fond-formations.jpg") fixed, black ;
     background-size: 100% 100%;
     color: $mainColor;
-    @include perso(750px){
-        background-position: -200px;
-    }
 }
 
 main{
@@ -96,7 +93,7 @@ section.formation{
                     }
                 }
                 img{
-                    width: 320px;
+                    width: 275px;
                     height: 100%;
                     border-radius: 10px;
                     @include paysage-mobile{
