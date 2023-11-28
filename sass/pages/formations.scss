@@ -110,7 +110,6 @@ section.formation{
             &__more-informations{
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
                 &__info-cle{
                     h2{
                         font-size: 24px;
@@ -120,7 +119,8 @@ section.formation{
                     }
                     span{
                         border: 2px solid $mainColor;
-                        padding: 20px;
+                        padding: 10px 15px;
+                        margin: 2px;
                     }
                 }
                 span{

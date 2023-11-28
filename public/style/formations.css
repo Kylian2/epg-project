@@ -131,7 +131,6 @@ section.formation .formations-conteneur__card .deplie-btn {
 section.formation .formations-conteneur__card__more-informations {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 section.formation .formations-conteneur__card__more-informations__info-cle h2 {
   font-size: 24px;
@@ -141,7 +140,8 @@ section.formation .formations-conteneur__card__more-informations__info-cle h2 {
 }
 section.formation .formations-conteneur__card__more-informations__info-cle span {
   border: 2px solid white;
-  padding: 20px;
+  padding: 10px 15px;
+  margin: 2px;
 }
 section.formation .formations-conteneur__card__more-informations span {
   display: inline-block;
