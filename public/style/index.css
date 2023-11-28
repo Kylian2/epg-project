@@ -12,6 +12,10 @@ body {
   background-attachment: fixed;
 }
 
+iframe {
+  border: 0;
+}
+
 #introduction {
   display: flex;
   margin: 80px;
