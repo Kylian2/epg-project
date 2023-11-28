@@ -3,12 +3,6 @@
   --main-bg-color: #000;
 }
 
-/* ---- VARIABLE ------- */
-:root {
-  --main-bg-color: #000;
-}
-
-/* -------- RESET CSS ---------- */
 * {
   padding: 0;
   margin: 0;

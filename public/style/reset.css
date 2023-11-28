@@ -1,42 +1,19 @@
-/* ---- VARIABLE ------- */
-:root {
-  --main-bg-color: #000;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 21 | /     @include paysage-mobile{
+ * 22 | |         margin: 20px 10%;
+ * 23 | |         font-size: 20px;
+ * 24 | \     }
+ *    '
+ *   sass/utils/reset.scss 21:5  root stylesheet */
 
-/* -------- RESET CSS ---------- */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-  font-family: "Barlow Semi Condensed", sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 21 \2502  \250c      @include paysage-mobile{\a 22 \2502  \2502          margin: 20px 10%;\a 23 \2502  \2502          font-size: 20px;\a 24 \2502  \2514      }\a    \2575 \a   sass/utils/reset.scss 21:5  root stylesheet";
 }
-
-.inactif, .menu-actif {
-  display: none !important;
-}
-
-h1.nom-page {
-  margin: 20px 15%;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 28px;
-}
-@media screen and (max-width: 700px) {
-  h1.nom-page {
-    margin: 20px 10%;
-    font-size: 20px;
-  }
-}
-h1.nom-page span {
-  margin: 5px;
-  font-weight: bold;
-  opacity: 0.6;
-}
-
-address {
-  font-style: unset;
-}
-
-/*# sourceMappingURL=reset.css.map */
