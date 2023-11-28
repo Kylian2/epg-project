@@ -269,6 +269,7 @@ iframe{
             p{
                 font-weight: 300;
                 line-height: 18px;
+                text-shadow: $secondaireColor 1px 0px 2px;
                 @include paysage-mobile{
                     display: none;
                 }
@@ -312,7 +313,7 @@ iframe{
 }
 
 #card-1-index{
-    background: url("../img/campus/campus-dassault/salle-chimie-1.jpeg");
+    background: url("../img/campus/campus-darwin/salle-cours.jpeg");
 }
 
 #card-2-index{

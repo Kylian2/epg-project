@@ -316,6 +316,7 @@ iframe {
 .menu-defilant__card-conteneur__card p {
   font-weight: 300;
   line-height: 18px;
+  text-shadow: #141415 1px 0px 2px;
 }
 @media screen and (max-width: 700px) {
   .menu-defilant__card-conteneur__card p {
@@ -366,7 +367,7 @@ iframe {
 }
 
 #card-1-index {
-  background: url("../img/campus/campus-dassault/salle-chimie-1.jpeg");
+  background: url("../img/campus/campus-darwin/salle-cours.jpeg");
 }
 
 #card-2-index {
