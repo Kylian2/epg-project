@@ -7,7 +7,7 @@
 body {
   background: url("../img/fond/fond-index.jpg"), black;
   background-size: 100% 100%;
-  color: white;
+  color: #f6f6f6;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-attachment: fixed;
 }
@@ -200,7 +200,7 @@ iframe {
   display: block;
   width: 3px;
   height: 20px;
-  background: white;
+  background: #f6f6f6;
   opacity: 0.7;
 }
 #campus .information {
@@ -272,7 +272,7 @@ iframe {
 .menu-defilant__card-conteneur__card {
   box-shadow: 22px 21px 288px -73px rgba(0, 0, 0, 0.75) inset;
   border-radius: 15px;
-  color: white;
+  color: #f6f6f6;
   display: flex;
   flex-direction: column;
   padding: 30px;

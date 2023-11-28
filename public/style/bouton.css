@@ -18,12 +18,12 @@
   color: #141415;
 }
 .btn-style-1:active {
-  background: #b3b3b3;
+  background: #aaaaaa;
 }
 
 .btn-style-2 {
   border: 2px solid white;
-  background: white;
+  background: #f6f6f6;
   color: #141415;
   border-radius: 25px;
   padding: 10px 20px;
@@ -37,7 +37,7 @@
   color: #141415;
 }
 .btn-style-2:active {
-  background: #b3b3b3;
+  background: #aaaaaa;
 }
 
 .btn-style-3 {
@@ -46,15 +46,15 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: white;
+  color: #f6f6f6;
   width: 100%;
   cursor: pointer;
 }
 .btn-style-3 a {
-  color: white;
+  color: #f6f6f6;
 }
 .btn-style-3 span {
-  background: white;
+  background: #f6f6f6;
   display: block;
   height: 2px;
   transform-origin: right;
@@ -84,7 +84,7 @@
 .btn-big {
   width: 200px;
   height: 200px;
-  background: white;
+  background: #f6f6f6;
   color: #141415;
   border-radius: 50%;
   display: flex;

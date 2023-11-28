@@ -7,7 +7,7 @@ body {
   background: url("../img/fond/fond-crew.jpg"), black;
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  color: white;
+  color: #f6f6f6;
 }
 
 .professeur-conteneur {
@@ -135,7 +135,7 @@ body {
   display: block;
   width: 12px;
   height: 12px;
-  background: white;
+  background: #f6f6f6;
   opacity: 0.2;
   border-radius: 50%;
   cursor: pointer;

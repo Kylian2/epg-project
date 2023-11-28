@@ -6,7 +6,7 @@
 body {
   background: url("../img/fond/fond-contact.jpg"), black;
   background-attachment: fixed;
-  color: white;
+  color: #f6f6f6;
 }
 
 h1 {
@@ -83,10 +83,10 @@ section form label {
 section form .basique-information-conteneur input {
   border: unset;
   background: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #f6f6f6;
   margin-bottom: 10px;
   height: 30px;
-  color: white;
+  color: #f6f6f6;
   font-size: 14px;
   padding: 4px;
   width: 100%;
@@ -97,9 +97,9 @@ section form .basique-information-conteneur select {
   border: unset;
   border-radius: unset;
   padding: 10px 0;
-  color: white;
+  color: #f6f6f6;
   font-size: 14px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #f6f6f6;
 }
 @media screen and (max-width: 850px) {
   section form .basique-information-conteneur {
@@ -110,9 +110,9 @@ section form .message-conteneur textarea {
   appearance: none;
   height: 100%;
   border: unset;
-  border-left: 2px solid rgba(255, 255, 255, 0.7);
+  border-left: 2px solid rgba(246, 246, 246, 0.7);
   background: none;
-  color: white;
+  color: #f6f6f6;
   font-size: 14px;
   padding: 4px;
 }
@@ -205,7 +205,7 @@ section form .send-btn {
 
 .selectionne {
   border: 2px solid white;
-  background: white;
+  background: #f6f6f6;
   color: #141415;
   border-radius: 25px;
   transition: 0.3s;
@@ -217,7 +217,7 @@ section form .send-btn {
   color: #141415;
 }
 .selectionne:active {
-  background: #b3b3b3;
+  background: #aaaaaa;
 }
 
 #map {

@@ -81,7 +81,7 @@ header nav ul li::after {
   display: block;
   height: 4px;
   width: 100%;
-  background: white;
+  background: #f6f6f6;
   transition: 0.3s;
 }
 header nav ul li:hover::after {
@@ -89,7 +89,7 @@ header nav ul li:hover::after {
   display: block;
   height: 4px;
   width: 100%;
-  background: white;
+  background: #f6f6f6;
   transform: translateY(-35px);
   animation: hoverNav 0.3s;
 }
@@ -195,7 +195,7 @@ header .hamburger {
 
 .hamburger-navigation {
   position: fixed;
-  background: white;
+  background: #f6f6f6;
   width: 100vw;
   height: 100vh;
   z-index: 100;
@@ -262,7 +262,7 @@ header .hamburger {
 }
 .hamburger-navigation .btn-style-1:hover {
   background: #141415;
-  color: white;
+  color: #f6f6f6;
 }
 .hamburger-navigation .btn-style-1:active {
   background: black;
@@ -270,16 +270,16 @@ header .hamburger {
 .hamburger-navigation .btn-style-2 {
   background: #141415;
   border: 2px solid #141415;
-  color: white;
+  color: #f6f6f6;
   width: unset;
   font-weight: 500;
 }
 .hamburger-navigation .btn-style-2:hover {
-  background: white;
+  background: #f6f6f6;
   color: #141415;
 }
 .hamburger-navigation .btn-style-2:active {
-  background: #b3b3b3;
+  background: #aaaaaa;
 }
 .hamburger-navigation .hamburger__barre {
   background: #141415;

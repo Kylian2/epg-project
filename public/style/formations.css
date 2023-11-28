@@ -7,7 +7,7 @@
 body {
   background: url("../../public/img/fond/fond-formations.jpg") fixed, black;
   background-size: 100% 100%;
-  color: white;
+  color: #f6f6f6;
 }
 
 main {
@@ -139,7 +139,7 @@ section.formation .formations-conteneur__card__more-informations__info-cle h2 {
   margin: 0 0 10px 0;
 }
 section.formation .formations-conteneur__card__more-informations__info-cle span {
-  border: 2px solid white;
+  border: 2px solid #f6f6f6;
   padding: 10px 15px;
   margin: 2px;
 }

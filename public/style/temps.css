@@ -5,7 +5,7 @@
 
 body {
   background: #141415;
-  color: white;
+  color: #f6f6f6;
 }
 
 main {
@@ -20,7 +20,7 @@ div {
 
 th, td {
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #f6f6f6;
   padding: 5px 10px;
 }
 
