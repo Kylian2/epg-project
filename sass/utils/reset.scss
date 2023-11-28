@@ -1,3 +1,6 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
 /* -------- RESET CSS ---------- */
 
 *{
@@ -13,7 +16,7 @@
     display: none !important;
 }
 
-h1{
+h1.nom-page{
     margin: 20px 15%;
     text-transform: uppercase;
     font-weight: 300;
@@ -29,4 +32,6 @@ h1{
     }
 }
 
-/* ----------- FIN RESET CSS ---------- */
+address{
+    font-style: unset;
+}

@@ -1,3 +1,9 @@
+/* ---- VARIABLE ------- */
+:root {
+  --main-bg-color: #000;
+}
+
+/* -------- RESET CSS ---------- */
 * {
   padding: 0;
   margin: 0;
@@ -10,3 +16,27 @@
 .inactif, .menu-actif {
   display: none !important;
 }
+
+h1.nom-page {
+  margin: 20px 15%;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 28px;
+}
+@media screen and (max-width: 700px) {
+  h1.nom-page {
+    margin: 20px 10%;
+    font-size: 20px;
+  }
+}
+h1.nom-page span {
+  margin: 5px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+address {
+  font-style: unset;
+}
+
+/*# sourceMappingURL=reset.css.map */
