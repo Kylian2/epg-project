@@ -1,19 +1,19 @@
-const texteSerin = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et ex diam. Vestibulum condimentum elit eget feugiat auctor. Sed et purus mi. Fusce at tempor sapien, a luctus tortor. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In et tempus dui, in vestibulum purus. Vestibulum eleifend turpis justo, ut viverra felis pharetra vel. Vivamus faucibus in sapien eu fermentum. Donec mollis tempus efficitur. Quisque.";
-const texteTurner = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis risus sit amet nisl euismod, at tincidunt turpis congue. Ut et imperdiet sem. Nullam placerat nunc at varius dapibus. Suspendisse vulputate, mi id hendrerit tristique, dolor enim vestibulum felis, nec aliquet quam odio at tellus. Aenean placerat consectetur feugiat. Nam augue sapien, elementum sed ullamcorper sed, molestie vitae ex. Praesent pharetra ornare lectus, blandit hendrerit neque pulvinar ut. Nulla id.";
-const texteLewis = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam nunc, interdum a mollis vel, vulputate a eros. Proin porta fermentum justo, at dapibus quam placerat nec. Integer sed dapibus risus. Curabitur at odio purus. Curabitur fringilla sem et eleifend ultrices. Proin id lorem rutrum, consectetur purus id, congue mauris. Nulla in elementum purus. In neque sem, bibendum auctor tellus eget, ultrices posuere sapien. Class aptent taciti sociosqu ad litora.";
-const texteWright = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor varius nisi at placerat. Morbi quis ligula quis neque porta fermentum. Nulla sed vehicula metus. Proin tortor augue, gravida malesuada pellentesque quis, dictum at turpis. Etiam et lorem orci. Cras vehicula magna id tortor accumsan, id consequat elit aliquam. Sed vulputate vel quam eu varius. Fusce auctor efficitur dolor non lacinia. In hac habitasse platea dictumst. Vivamus pulvinar a libero.";
-const texteVadersith = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nulla non efficitur elementum. Morbi placerat at odio at elementum. Aliquam ut magna nulla. Integer porttitor lorem vel metus imperdiet rutrum. Phasellus gravida imperdiet urna, nec pulvinar mi gravida et. Nulla lobortis et tortor id iaculis. Nullam nec lectus vel lectus tempus fermentum ut rutrum purus. Morbi suscipit suscipit purus quis scelerisque.";
+const texteSerin = "Talia Serin, biologiste chevronnée, a mené des expéditions pionnières sur des planètes jadis considérées comme inhospitalières. Elle a découvert et classifié de nouvelles formes de vie extraterrestre, contribuant ainsi à élargir notre compréhension de la diversité biologique dans la galaxie. Ses travaux ont été publiés dans plusieurs revues scientifiques renommées, faisant d'elle une référence incontournable dans le domaine.";
+const texteTurner = "Nicolas Turner, chimiste émérite, a dirigé des équipes de recherche novatrices travaillant sur la synthèse de composés chimiques spécifiques à l'espace. Ses contributions ont conduit au développement de matériaux révolutionnaires utilisés dans la fabrication de vaisseaux spatiaux et de systèmes de propulsion avancés. Son expertise a été sollicitée dans des missions interstellaires, élevant ainsi la chimie à de nouvelles hauteurs.";
+const texteLewis = "Henry Lewis, ancien sénateur respecté, a joué un rôle crucial dans la négociation de traités intergalactiques visant à renforcer la coopération entre différentes civilisations. Ses talents diplomatiques ont contribué à apaiser des tensions potentielles et à favoriser des relations pacifiques entre les mondes. Il a été honoré par plusieurs distinctions pour son engagement en faveur de la paix et de la stabilité dans la République.";
+const texteWright = "Andrew Wright, ingénieur de renom, a dirigé des équipes d'ingénierie ayant développé des technologies révolutionnaires, notamment des systèmes de propulsion à énergie renouvelable pour les voyages interstellaires. Ses innovations ont contribué à repousser les limites de l'exploration spatiale en rendant les voyages plus rapides et plus durables. Il a été lauréat de plusieurs prix pour ses contributions exceptionnelles à l'ingénierie.";
+const texteVadersith = "Josh Vadersith, commandant expérimenté, a dirigé des opérations militaires cruciales pour la sécurité de la galaxie. Son leadership éclairé a permis de repousser de nombreuse menaces et de prévenir des conflits majeurs. Ses tactiques novatrices et son engagement envers la protection des citoyens ont fait de lui un héros militaire reconnu à travers la République.";
 
 const professeursInformations = {
     serin : {
         nom : "Talia Serin",
-        poste : "Responsable Chimiste", 
+        poste : "Biologiste", 
         description : texteSerin,
         image : "public/img/crew/talia-serin.png"
     },
     turner : {
         nom : "Nicolas Turner",
-        poste : "Biologist", 
+        poste : "Responsable Chimiste", 
         description : texteTurner,
         image : "public/img/crew/nicolas-turner.png"
     },
@@ -25,13 +25,13 @@ const professeursInformations = {
     },
     wright : {
         nom : "Andrew Wright",
-        poste : "Chief Ingenier", 
+        poste : "Ingenieur", 
         description : texteWright,
         image : "public/img/crew/andrew-wright.png"
     },
     vadersith : {
         nom : "Josh Vadersith",
-        poste : "Commandant d'armée", 
+        poste : "Commandant", 
         description : texteVadersith,
         image : "public/img/crew/josh-vadersith.png"
     }
