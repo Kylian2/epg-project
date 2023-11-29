@@ -51,6 +51,7 @@ address {
   cursor: pointer;
   transition: 0.3s;
   text-align: center;
+  color: #f6f6f6;
   font-weight: 500;
 }
 .btn-style-1:hover {
