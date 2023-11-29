@@ -20,12 +20,12 @@ footer{
     }
     .footer-partie-haute{
         display: grid; 
-        grid-template-columns: repeat(3, 1fr) 3fr; 
+        grid-template-columns: repeat(2, 1fr) 3fr; 
         grid-template-rows: 1fr; 
         grid-column-gap: 20px;
         grid-row-gap: 0px; 
         @include perso(750px){
-            grid-template-columns: repeat(3, 1fr); 
+            grid-template-columns: repeat(2, 1fr); 
             grid-template-rows: 1fr 1fr; 
             grid-row-gap: 20px; 
         }
@@ -45,7 +45,7 @@ footer{
                 align-items: center;
             }
         }
-        &:nth-child(4){
+        &:nth-child(3){
             @include perso(750px){
                 grid-area: 2 / 1 / 3 / 4;
                 justify-content: center;
