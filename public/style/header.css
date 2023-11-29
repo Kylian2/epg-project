@@ -252,9 +252,6 @@ header .hamburger {
   font-weight: 300;
   text-transform: uppercase;
 }
-.hamburger-navigation ul li a:visited {
-  color: unset;
-}
 .hamburger-navigation .btn-style-1 {
   border: 2px solid #141415;
   width: unset;

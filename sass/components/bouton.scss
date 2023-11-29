@@ -119,8 +119,9 @@
     justify-content: center;
     cursor: pointer;
     transition: .4s;
-    span{
+    a{
         font-size: 32px;
+        color: $secondaireColor;
     }
 }
 /* ----------- FIN STYLE BOUTON -------- */
