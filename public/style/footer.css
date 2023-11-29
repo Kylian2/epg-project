@@ -124,14 +124,11 @@ footer .footer-partie-basse a {
   transition: 0.3s;
   color: #f6f6f6;
 }
-footer .footer-partie-basse a:hover .fa-instagram {
-  color: #6f1d95;
-}
 footer .footer-partie-basse a:hover .fa-linkedin {
   color: #1d2795;
 }
-footer .footer-partie-basse a:hover .fa-youtube {
-  color: #a52b2b;
+footer .footer-partie-basse a:hover .fa-envelope {
+  color: #230c37;
 }
 
 /* 

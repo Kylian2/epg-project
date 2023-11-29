@@ -112,14 +112,11 @@ footer{
         a{
             transition: .3s;
             color: $mainColor;
-            &:hover .fa-instagram{
-                color: rgb(111, 29, 149);
-            }
             &:hover .fa-linkedin{
                 color: rgb(29, 39, 149);
             }
-            &:hover .fa-youtube{
-                color: rgb(165, 43, 43);
+            &:hover .fa-envelope{
+                color: rgb(35, 12, 55);
             }
         }
     }
