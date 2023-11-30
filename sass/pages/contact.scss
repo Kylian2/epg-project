@@ -7,7 +7,8 @@ body{
     background-attachment: fixed;
     color: $mainColor;
     @include paysage-mobile(){
-        background-size: 160% 100%;   
+        background-size: auto 100vh;
+        background-position: -455px 0px;      
     }
 }
 
