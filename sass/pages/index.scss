@@ -60,6 +60,7 @@ iframe{
             line-height: 30px;
             @include perso(800px){
                 margin: 20px 5%;
+                text-align: justify;
             }
             @include paysage-mobile{
                 font-size: 14px;
@@ -121,6 +122,9 @@ iframe{
     }
     p{
         grid-area: 1 / 2 / 2 / 4;
+        @include perso(800px){
+            text-align: justify;
+        }
     }
     .illustration{
         display: flex;

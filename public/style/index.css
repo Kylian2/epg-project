@@ -78,6 +78,7 @@ iframe {
 @media screen and (max-width: 800px) {
   #introduction .contenu p {
     margin: 20px 5%;
+    text-align: justify;
   }
 }
 @media screen and (max-width: 700px) {
@@ -151,6 +152,11 @@ iframe {
 }
 #campus p {
   grid-area: 1/2/2/4;
+}
+@media screen and (max-width: 800px) {
+  #campus p {
+    text-align: justify;
+  }
 }
 #campus .illustration {
   display: flex;
