@@ -6,6 +6,9 @@ body{
     background: url("../img/fond/fond-contact.jpg"), black;
     background-attachment: fixed;
     color: $mainColor;
+    @include paysage-mobile(){
+        background-size: 160% 100%;   
+    }
 }
 
 h1{

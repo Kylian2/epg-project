@@ -11,6 +11,11 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-attachment: fixed;
 }
+@media screen and (max-width: 700px) {
+  body {
+    background-size: 160% 100%;
+  }
+}
 
 iframe {
   border: 0;

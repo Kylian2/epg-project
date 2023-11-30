@@ -9,6 +9,11 @@ body {
   background-size: 100% 100%;
   color: #f6f6f6;
 }
+@media screen and (max-width: 700px) {
+  body {
+    background-size: 160% 100%;
+  }
+}
 
 main {
   display: flex;

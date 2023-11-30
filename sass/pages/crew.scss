@@ -6,6 +6,9 @@ body{
     background-size: 100vw 100vh;
     background-attachment: fixed;
     color: $mainColor;
+    @include paysage-mobile(){
+        background-size: 160% 100%;   
+    }
 }
 
 .professeur-conteneur{

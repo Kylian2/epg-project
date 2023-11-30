@@ -6,6 +6,9 @@ body{
     background: url("../../public/img/fond/fond-formations.jpg") fixed, black ;
     background-size: 100% 100%;
     color: $mainColor;
+    @include paysage-mobile(){
+        background-size: 160% 100%;   
+    }
 }
 
 main{
