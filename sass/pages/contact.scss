@@ -179,6 +179,9 @@ section{
         @include perso(850px){
             grid-area: 2 / 1 / 3 / 2;
         }
+        a{
+            color: $mainColor;
+        }
         
     }
     &__map{

@@ -201,6 +201,9 @@ section form .send-btn {
     grid-area: 2/1/3/2;
   }
 }
+.map-conteneur__informations-pratique a {
+  color: #f6f6f6;
+}
 .map-conteneur__map {
   grid-area: 2/2/3/3;
   border: 20px;
