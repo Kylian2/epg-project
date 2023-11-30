@@ -96,6 +96,7 @@ section form .basique-information-conteneur input {
   font-size: 14px;
   padding: 4px;
   width: 100%;
+  border-radius: unset;
 }
 section form .basique-information-conteneur select {
   appearance: none;
@@ -106,6 +107,7 @@ section form .basique-information-conteneur select {
   color: #f6f6f6;
   font-size: 14px;
   border-bottom: 2px solid #f6f6f6;
+  border-radius: unset;
 }
 @media screen and (max-width: 850px) {
   section form .basique-information-conteneur {
@@ -121,6 +123,7 @@ section form .message-conteneur textarea {
   color: #f6f6f6;
   font-size: 14px;
   padding: 4px;
+  border-radius: unset;
 }
 @media screen and (max-width: 850px) {
   section form .message-conteneur {
