@@ -1,7 +1,7 @@
 # Presentation du projet 
 
 Ce projet a été réalisé dans le cadre du cours R102 (Développement d'interfaces Web) pour concrétiser les notions apprises.
-En relation avec le cours de cours de communication, nous devions inventer une école et creer le site internet pour la présenter. 
+En relation avec le cours de communication, nous devions inventer une école et créer son site internet. 
 
 Vous trouverez plus de details concernant le projet sur ce site web (cahier des charges) : [Cahier des charges](https://webdev.iut-orsay.fr/cwac/#pages)
 
