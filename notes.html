@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+    <title>Note pour le projet CWAC</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+        code {
+            white-space: pre-wrap;
+        }
+
+        span.smallcaps {
+            font-variant: small-caps;
+        }
+
+        span.underline {
+            text-decoration: underline;
+        }
+
+        div.column {
+            display: inline-block;
+            vertical-align: top;
+            width: 50%;
+        }
+
+        div.hanging-indent {
+            margin-left: 1.5em;
+            text-indent: -1.5em;
+        }
+
+        ul.task-list {
+            list-style: none;
+        }
+    </style>
+
+    <style type="text/css">
+        code {
+            white-space: pre;
+        }
+    </style>
+    <script type="text/javascript">
+        if (window.hljs) {
+            hljs.configure({ languages: [] });
+            hljs.initHighlightingOnLoad();
+            if (document.readyState && document.readyState === "complete") {
+                window.setTimeout(function () { hljs.initHighlighting(); }, 0);
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        .main-container {
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .tabbed-pane {
+            padding-top: 12px;
+        }
+
+        .html-widget {
+            margin-bottom: 20px;
+        }
+
+        button.code-folding-btn:focus {
+            outline: none;
+        }
+
+        summary {
+            display: list-item;
+        }
+
+        pre code {
+            padding: 0;
+        }
+    </style>
+
+    <!-- tabsets -->
+
+    <style type="text/css">
+        .tabset-dropdown>.nav-tabs {
+            display: inline-table;
+            max-height: 500px;
+            min-height: 44px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .tabset-dropdown>.nav-tabs>li.active:before {
+            content: "";
+            font-family: 'Glyphicons Halflings';
+            display: inline-block;
+            padding: 10px;
+            border-right: 1px solid #ddd;
+        }
+
+        .tabset-dropdown>.nav-tabs.nav-tabs-open>li.active:before {
+            content: "";
+            border: none;
+        }
+
+        .tabset-dropdown>.nav-tabs.nav-tabs-open:before {
+            content: "";
+            font-family: 'Glyphicons Halflings';
+            display: inline-block;
+            padding: 10px;
+            border-right: 1px solid #ddd;
+        }
+
+        .tabset-dropdown>.nav-tabs>li.active {
+            display: block;
+        }
+
+        .tabset-dropdown>.nav-tabs>li>a,
+        .tabset-dropdown>.nav-tabs>li>a:focus,
+        .tabset-dropdown>.nav-tabs>li>a:hover {
+            border: none;
+            display: inline-block;
+            border-radius: 4px;
+            background-color: transparent;
+        }
+
+        .tabset-dropdown>.nav-tabs.nav-tabs-open>li {
+            display: block;
+            float: none;
+        }
+
+        .tabset-dropdown>.nav-tabs>li {
+            display: none;
+        }
+    </style>
+
+    <!-- code folding -->
+
+</head>
+
+<body>
+
+    <div class="container-fluid main-container">
+        <br>
+        <p><em>Page rédigée par Benjamin Hellouin</em></p>
+        <div id="header">
+            <h1 class="title toc-ignore">Note pour le projet CWAC</h1>
+        </div>
+
+        <style>
+            code {
+                font-family: inherit;
+                white-space: normal;
+                background-color: unset;
+            }
+
+            h2 {
+                font-size: 120%;
+            }
+        </style>
+        <p>Ce document donne le détail de la notation pour le projet CWAC. Le projet corrigé est celui qui était sur
+            webdev
+            le 30 novembre, sauf si vous m’avez prévenu ou demandé un délai.</p>
+        <p>Pour chaque section, il y a une description générale, puis un retour spécifique à votre groupe. Toute note
+            comporte un peu de subjectivité, mais contactez-moi si j’écris quelque chose de faux.</p>
+        <p>Sujet du projet : <a href="https://webdev.iut-orsay.fr/cwac" class="uri">https://webdev.iut-orsay.fr/cwac</a>
+        </p>
+        <p>Grille de notation (il y a eu des changements mineurs) : <a href="https://webdev.iut-orsay.fr/cwac/#notes"
+                class="uri">https://webdev.iut-orsay.fr/cwac/#notes</a></p>
+        <p>Etudiant(e) : <strong>Kylian RICHARD</strong></p>
+        <p>Groupe : <strong>E5</strong></p>
+        <p>Note Web : 20 / 20</p>
+        <p>Note Ecrit : 13.5 / 20</p>
+        <p>Note Oral : 20 / 20</p>
+        <p>Note de projet : <strong>18.9166667 / 20</strong></p>
+        <div id="retour-général" class="section level1">
+            <h1>Retour général</h1>
+            <p>Je n’ai pas eu le temps de faire des retours généraux sur chaque groupe cette année. Vous avez les notes
+                par
+                critères ci-dessous, où je ne parle que des aspects où vous perdez des points, donc ça peut paraître
+                négatif.
+            </p>
+        </div>
+        <div id="site-web-contenu" class="section level1">
+            <h1>Site Web : contenu</h1>
+            <p>Pour toutes ces sections, on note le respect du cahier des charges et pas le travail visuel et
+                l’apparence</p>
+            <div id="menu-et-pied-de-page" class="section level2">
+                <h2>Menu et pied de page</h2>
+                <p>On a un menu de navigation qui va sur toutes les pages, et un logo qui ramène à la page d’accueil</p>
+                <p><em>Note :</em> 1 / 1.25</p>
+                <p><em>Commentaire :</em><code>Un seul format de rapport</code></p>
+            </div>
+            <div id="page-daccueil" class="section level2">
+                <h2>Page d’accueil</h2>
+                <p>La page contient vidéo, un texte explicatif avec plusieurs paragraphes séparés, une version grande du
+                    logo).
+                </p>
+                <p><em>Note :</em> 1.25 / 1.25</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+            <div id="page-de-produits" class="section level2">
+                <h2>Page de produits</h2>
+                <p>La page contient au moins trois blocs indépendants avec un texte de description + autres infos +
+                    image.</p>
+                <p><em>Note :</em> 1.25 / 1.25</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+            <div id="page-de-contact" class="section level2">
+                <h2>Page de contact</h2>
+                <p>La page contient des infos de contact, une carte et un formulaire qui contient les éléments demandés.
+                </p>
+                <p><em>Note :</em> 1.25 / 1.25</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+        </div>
+        <div id="site-web-spécifications-techniques" class="section level1">
+            <h1>Site Web : spécifications techniques</h1>
+            <div id="consignes-générales" class="section level2">
+                <h2>Consignes générales</h2>
+                <p>Titre et icône dans l’onglet. Présence de la page index.html.</p>
+                <p><em>Note :</em> 0.75 / 0.75</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+            <div id="identité-visuelle" class="section level2">
+                <h2>Identité visuelle</h2>
+                <p>A-t-on deux couleurs majeures (données en RGB ou hex) et deux polices ? La police est-elle bien
+                    fournie au
+                    visiteur via <span class="citation">@font-face</span> ? Tout ça est-il bien utilisé sur le site et
+                    le rapport
+                    ?</p>
+                <p><em>Note :</em> 0.75 / 1</p>
+                <p><em>Commentaire :</em><code>Le rapport n’a pas d’éléments d’identité visuelle (polices, etc.)</code>
+                </p>
+            </div>
+            <div id="adaptatif" class="section level2">
+                <h2>Adaptatif</h2>
+                <p>Effort pour que le site fonctionne sur différentes tailles d’écran : il y a au moins une requête
+                    media qui
+                    change la mise en forme, pas trop d’espace perdu en grand écran, pas de débordement en petit écran.
+                </p>
+                <p><em>Note :</em> 1.5 / 1.5</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+        </div>
+        <div id="finition-et-travail-en-plus" class="section level1">
+            <h1>Finition et travail en plus</h1>
+            <div id="finition-et-aspect-du-site" class="section level2">
+                <h2>Finition et aspect du site</h2>
+                <p>Le site est-il bien fini visuellement : Lisibilité, centrage, travail visuel.</p>
+                <p><em>Note :</em> 1.5 / 1.5</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+            <div id="contenu-et-aspects-techniques-supplémentaires" class="section level2">
+                <h2>Contenu et aspects techniques supplémentaires</h2>
+                <p>Travail supplémentaire : outils et technologies non vus en cours, récupération et adaptation de code
+                    existant, contenu supplémentaire (pages en plus ou détails en plus dans les pages existantes),
+                    travail
+                    esthétique particulier.</p>
+                <p>La note peut paraître dure, il faut vraiment un travail supplémentaire très important pour avoir tous
+                    les
+                    points à ce critère.</p>
+                <p><em>Note :</em> 3</p>
+                <p><em>Commentaire :</em><code>Je ne vais pas faire la liste de tout ce qui a été fait</code></p>
+            </div>
+        </div>
+        <div id="qualité-du-code-et-bonnes-pratiques" class="section level1">
+            <h1>Qualité du code et bonnes pratiques</h1>
+            <div id="validation" class="section level2">
+                <h2>Validation</h2>
+                <p>Validation W3C du HTML et du CSS. On n’a pas (ou moins) sanctionné certaines erreurs si elles sont
+                    difficiles
+                    ou justifiées dans le compte-rendu de validation.</p>
+                <p><em>Note :</em> 1.25 / 1.25</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+            <div id="qualité" class="section level2">
+                <h2>Qualité</h2>
+                <p>Qualité générale du code : code facile à comprendre avec des noms clairs, choix des bons éléments
+                    html, pas
+                    d’abus de <code>&lt;br&gt;</code> ou de la propriété position pour la mise en page, pas de code
+                    inutile ou
+                    dupliqué, bonne indentation.</p>
+                <p><em>Note :</em> 1.25 / 1.5</p>
+                <p><em>Commentaire
+                        :</em><code>Le code a plusieurs endroits où on pourrait simplifier ou enlever des blocs (en général, des div dans des div dans des div…), même si ça reste raisonnable. CSS très bien orgénisé, un peu de copier-coller entre bouton.css et style.css oublié</code>
+                </p>
+            </div>
+            <div id="organisation" class="section level2">
+                <h2>Organisation</h2>
+                <p>Rangement du projet et du code CSS : fichiers avec des noms clairs et rangés dans des dossiers si
+                    nécessaire,
+                    code CSS bien séparé suivant les parties du site.</p>
+                <p><em>Note :</em> 1 / 1</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+        </div>
+        <div id="rapport" class="section level1">
+            <h1>Rapport</h1>
+            <div id="contenu-en-consigne" class="section level2">
+                <h2>Contenu en consigne</h2>
+                <p>Suivi des consignes du rapport, et apparence professionnelle. Bons formats de rendu, présence de
+                    numéros de
+                    page, table des matières faite automatiquement, noms des auteurs, pas de changement de police en
+                    plein milieu,
+                    etc.</p>
+                <p><em>Note :</em> 1.5 / 1.75</p>
+                <p><em>Commentaire
+                        :</em><code>Le contenu est très clair et complet. Les en-têtes ne suivent pas le cahier des charges.</code>
+                </p>
+            </div>
+            <div id="apparence-et-finition" class="section level2">
+                <h2>Apparence et finition</h2>
+                <p>Le rapport contient-il bien ce qui est demandé ? (Page de garde ; table des matières ; introduction ;
+                    identité visuelle ; sources ; compte-rendu de validation). Les informations sont-elles précises ?
+                    (introduction claire pour une personne externe, liens pour les sources, noms des polices, codes rgb
+                    ou hex
+                    pour les couleurs…)</p>
+                <p><em>Note :</em> 1 / 1</p>
+                <p><em>Commentaire :</em><code>NA</code></p>
+            </div>
+        </div>
+        <div id="individuel" class="section level1">
+            <h1>Individuel</h1>
+            <div id="consignes-de-rendu" class="section level2">
+                <h2>Consignes de rendu</h2>
+                <p>Le rendu est-il fait suivant les consignes ?</p>
+                <p>-0,25 pour les petites erreurs (mauvais nom de dossier, lien au lieu de redirection) ; -0,5 pour les
+                    erreurs
+                    qui m’ont pris du temps (rendu de deux versions du projet). Pas de points si le rendu n’est pas fait
+                    sur
+                    webdev.</p>
+                <p>Comme cette note est individuelle, vous lisez des retours destinés à vos camarades.</p>
+                <p><em>Note :</em> 0.5 / 0.75</p>
+                <p><em>Commentaire :</em><code>Rendu hors de /cwac / pas de redirection</code></p>
+            </div>
+            <div id="bonus-malus" class="section level2">
+                <h2>Bonus / Malus</h2>
+                <ul>
+                    <li>
+                        <p>Notation plus facile / dure pour les étudiants abandonnés par leur binôme ou pour les groupes
+                            à trois</p>
+                    </li>
+                    <li>
+                        <p>Malus de rendu en retard ;</p>
+                    </li>
+                    <li>
+                        <p>Bonus / malus en cas de différence significative de participation au sein du groupe et/ou en
+                            cas
+                            d’absences et retards non justifiés répétés aux séances encadrées.</p>
+                    </li>
+                </ul>
+                <p><em>Note :</em> 2.5</p>
+                <p><em>Commentaire :</em><code>Différence de participation</code></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        // add bootstrap table styles to pandoc tables
+        function bootstrapStylePandocTables() {
+            $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+        }
+        $(document).ready(function () {
+            bootstrapStylePandocTables();
+        });
+
+
+    </script>
+
+    <!-- tabsets -->
+
+    <script>
+        $(document).ready(function () {
+            window.buildTabsets("TOC");
+        });
+
+        $(document).ready(function () {
+            $('.tabset-dropdown > .nav-tabs > li').click(function () {
+                $(this).parent().toggleClass('nav-tabs-open');
+            });
+        });
+    </script>
+
+    <!-- code folding -->
+
+
+    <!-- dynamically load mathjax for compatibility with self-contained -->
+    <script>
+        (function () {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+            document.getElementsByTagName("head")[0].appendChild(script);
+        })();
+    </script>
+
+</body>
+
+</html>
